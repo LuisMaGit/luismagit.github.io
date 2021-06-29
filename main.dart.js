@@ -61858,7 +61858,7 @@ s=p}while(true)switch(s){case 0:j=t.N
 i=P.aDi("https","api.nomics.com","/v1/currencies/sparkline",P.aC(["key","43f547b65ae63077ace9a3f6f65c825a","ids",d,"start",b,"end",c,"convert",e],j,j))
 p=4
 s=7
-return P.W(G.aG4(i,P.aC(["Access-Control-Request-Method","GET","Access-Control-Request-Headers","*"],j,j)),$async$iu)
+return P.W(G.aG4(i,P.aC(["Access-Control-Request-Method","GET","Access-Control-Request-Headers","*","Origin","https://luismagit.github.io"],j,j)),$async$iu)
 case 7:l=g
 if(l.b===200){j=l
 m.a=O.ayy(C.bp.cY(0,B.aFW(U.aDH(j.e).c.a.i(0,"charset")).cY(0,j.x))).a
